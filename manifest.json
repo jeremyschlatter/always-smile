@@ -2,13 +2,13 @@
   "manifest_version": 2,
 
   "name": "Always Smile",
-  "description": "Redirect all www.amazon.com requests to smile.amazon.com.",
+  "description": "Redirect all www.amazon.co.uk requests to smile.amazon.co.uk.",
   "version": "1.1",
 
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://www.amazon.com/*"
+    "*://www.amazon.co.uk/*"
   ],
   "background": {
     "scripts": ["redirect.js"]
